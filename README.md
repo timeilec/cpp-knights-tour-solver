@@ -8,7 +8,13 @@ The knight's tour is a chess problem that first appeared in around the ninth cen
 1. Compile the C++ file
 2. Run the executable with command line parameters for: board size (integer for number of chess squares in a row), start square, end square
 
-Example on Mac/Linux:
+Example compilation command on Mac/Linux:
+```
+g++ -std=c++17 knights-tour-solver.cpp -o knights-tour-solver
+```
+
+
+Example execution command on Mac/Linux:
 ```
 ./knights-tour-solver 8 a3 c4
 ```
